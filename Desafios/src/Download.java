@@ -5,7 +5,7 @@ public class Download{
         Scanner leitor = new Scanner(System.in);
         int tamanho= leitor.nextInt();
         
-        for(int i=1; i<=tamanho; i++){
+        for(int i=1; i<=tamanho; i++)  {
             System.out.print("/");
         }
 
